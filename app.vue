@@ -1,3 +1,8 @@
+<script scoped>
+
+</script>
+
+
 <template>
   <div>
     <NuxtLayout>

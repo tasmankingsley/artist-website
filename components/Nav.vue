@@ -4,7 +4,7 @@
 
 <template>
 <div class="top-bar">
-    <div class="title">artist website</div>
+    <div class="title">tasman kingsley</div>
     <div class="nav">
         <div class="link">
             <NuxtLink to="/" active-class="active">Home</NuxtLink>
@@ -27,6 +27,7 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 .top-bar {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
@@ -41,6 +42,7 @@
     text-align: center;
     place-self: center;
     font-weight: 300;
+    font-family: 'Nothing You Could Do', cursive;
 }
 
 .nav {
@@ -78,5 +80,6 @@ a, a:visited, a:hover, a:active {
 .active, a:hover {
     background-color: #dad9d4;
     border-radius: 5px;
+    text-decoration: none;
 }
 </style>

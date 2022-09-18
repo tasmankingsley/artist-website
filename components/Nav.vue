@@ -3,27 +3,27 @@
 </script>
 
 <template>
-<div class="top-bar">
-    <div class="title">tasman kingsley</div>
-    <div class="nav">
-        <div class="link">
-            <NuxtLink to="/" active-class="active">Home</NuxtLink>
-        </div>
+    <div class="top-bar">
+        <div class="title">tasman kingsley</div>
+        <div class="nav">
+            <div class="link">
+                <NuxtLink to="/" active-class="active">Home</NuxtLink>
+            </div>
 
-        <div class="link">
-            <NuxtLink to="/gallery" active-class="active">Gallery</NuxtLink>
-        </div>
+            <div class="link">
+                <NuxtLink to="/gallery" active-class="active">Gallery</NuxtLink>
+            </div>
 
-        <div class="link">
-            <NuxtLink to="/blog" active-class="active">Blog</NuxtLink>
-        </div>
-        
-        <div class="link">
-            <NuxtLink to="/about" active-class="active">About</NuxtLink>
-        </div>
+            <div class="link">
+                <NuxtLink to="/blog" active-class="active">Blog</NuxtLink>
+            </div>
+            
+            <div class="link">
+                <NuxtLink to="/about" active-class="active">About</NuxtLink>
+            </div>
 
+        </div>
     </div>
-</div>
 </template>
 
 <style scoped>
@@ -75,10 +75,20 @@ a, a:visited, a:hover, a:active {
 
     color: inherit;
     /* text-decoration: none; */
+    transition: background-color 0.4s;
+    
 }
 
-.active, a:hover {
+.active {
     background-color: #dad9d4;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #dad9d4;
+    /* background-color: #000;
+    color: #dad9d4; */
     border-radius: 5px;
     text-decoration: none;
 }

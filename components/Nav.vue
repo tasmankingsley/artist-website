@@ -75,7 +75,7 @@ a, a:visited, a:hover, a:active {
 
     color: inherit;
     /* text-decoration: none; */
-    transition: background-color 0.4s;
+    transition: background-color 0.3s;
     
 }
 
@@ -86,9 +86,9 @@ a, a:visited, a:hover, a:active {
 }
 
 a:hover {
-    background-color: #dad9d4;
-    /* background-color: #000;
-    color: #dad9d4; */
+    /* background-color: #dad9d4; */
+    background-color: #000;
+    color: #dad9d4;
     border-radius: 5px;
     text-decoration: none;
 }

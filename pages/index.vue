@@ -1,5 +1,5 @@
 <template>
-    <div class="background" :style="{ backgroundImage: 'url(images/5.png)' }">
+    <div class="background" :style="{ backgroundImage: 'url(images/7.png)' }">
         <div class="card">moiling minds</div>
     </div>
 </template>
@@ -13,6 +13,7 @@
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     
 }
 

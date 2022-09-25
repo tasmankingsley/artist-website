@@ -1,10 +1,10 @@
 <script setup>
-    
+
 </script>
 
 <template>
     <div>
-        <ContentDoc path="/blog/"/>
+      <ContentDoc/>
     </div>
 </template>
 

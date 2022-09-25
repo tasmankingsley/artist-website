@@ -8,7 +8,9 @@
             <img src="/images/profile.jpg">
         </div>
         
-        <ContentDoc path="/about/"/>  
+        <div class="about-div">
+            <ContentDoc path="/about/"/>
+        </div>  
 
     </div>
 </template>
@@ -25,12 +27,12 @@ img {
     border-radius: 50%;
 }
 
-div {
+.about-div {
     line-height: 30px;
 }
 
 @media (min-width: 800px) {
-  div {
+  .about-div {
       margin-left: 25%;
       margin-right: 25%;
   }

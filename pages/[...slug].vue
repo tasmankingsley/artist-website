@@ -3,14 +3,31 @@
 </script>
 
 <template>
-    <div>
+    <div class="slug-div">
       <ContentDoc/>
     </div>
 </template>
 
-<style scoped>
-@media (min-width: 600px) {
-  div {
+<style>
+.slug-div {
+  line-height: 30px;
+}
+
+ul {
+  line-height: 50px;
+}
+
+a {
+  color: coral;
+  /* text-decoration: none; */
+}
+
+h1 {
+  color: cadetblue;
+}
+
+@media (min-width: 800px) {
+  .slug-div {
       margin-left: 25%;
       margin-right: 25%;
   }

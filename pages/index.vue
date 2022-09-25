@@ -26,4 +26,11 @@
     font-family: 'Finger Paint', cursive;
 }
 
+@media (max-width: 500px) {
+    .card {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
 </style>

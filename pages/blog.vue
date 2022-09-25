@@ -9,7 +9,7 @@
 </template>
 
 <style scoped>
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   div {
       margin-left: 25%;
       margin-right: 25%;

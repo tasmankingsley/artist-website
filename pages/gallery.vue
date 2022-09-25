@@ -28,7 +28,10 @@ function display(src) {
             <img src="/images/11.png" @click="display('/images/11.png')">
             <img src="/images/12.png" @click="display('/images/12.png')">
         </div>
-        <div class="display" v-if="display_img.visible" :style="{backgroundImage: `url(${display_img.src})`}" @click="display_img.visible = false"></div>
+        <div class="display" v-if="display_img.visible"  @click="display_img.visible = false">
+            <span class="close">⤫</span>
+            <img class="display-img" :src="display_img.src">
+        </div>
     </div>
 </template>
 
@@ -46,16 +49,28 @@ img {
     cursor: pointer;
 }
 
+.display-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.close {
+    position: fixed;
+    color: white;
+    top: 0;
+    left: 15px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
 .display {
     position: fixed;
     z-index: 10;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.95);
 }
 

@@ -25,7 +25,11 @@ img {
     border-radius: 50%;
 }
 
-@media (min-width: 600px) {
+div {
+    line-height: 30px;
+}
+
+@media (min-width: 800px) {
   div {
       margin-left: 25%;
       margin-right: 25%;

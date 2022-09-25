@@ -4,7 +4,7 @@
 
 <template>
     <div class="top-bar">
-        <div class="title">tasman kingsley</div>
+        <div class="title">salvador kingsley</div>
         <div class="nav">
             <div class="link">
                 <NuxtLink to="/" active-class="active">Home</NuxtLink>
@@ -72,7 +72,7 @@ a, a:visited, a:hover, a:active {
     width: 80%;
     border-radius: 5px;
     text-align: center;
-
+    text-decoration: underline;
     color: inherit;
     /* text-decoration: none; */
     transition: background-color 0.3s;

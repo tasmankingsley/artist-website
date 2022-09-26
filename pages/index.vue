@@ -1,6 +1,8 @@
 <template>
     <div class="background" :style="{ backgroundImage: 'url(images/7.png)' }">
-        <div class="card">algorithmic experiments</div>
+        <div class="card">
+            algorithmic<br>experiments
+        </div>
     </div>
 </template>
 
@@ -19,7 +21,7 @@
 
 .card {
     position: absolute;
-    top: 400px;
+    top: 350px;
     color: white;
     font-size: 4rem;
     font-style: italic;
@@ -29,7 +31,7 @@
 
 @media (max-width: 550px) {
     .card {
-        font-size: 2.8rem;
+        font-size: 3rem;
     }
 }
 

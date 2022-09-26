@@ -6,7 +6,7 @@
     </div>
 </template>
 
-<style scoped>
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 .background {
     display: grid;
@@ -24,15 +24,9 @@
     top: 350px;
     margin: auto;
     color: white;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-style: italic;
     font-family: 'Finger Paint', cursive;
-}
-
-@media (max-width: 550px) {
-    .card {
-        font-size: 3rem;
-    }
 }
 
 </style>

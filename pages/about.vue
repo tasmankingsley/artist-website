@@ -5,7 +5,7 @@
 <template>
     <div>
         <div class="profile">
-            <img src="/images/profile.jpg">
+            <img class="profile-img" src="/images/profile.jpg">
         </div>
         
         <div class="about-div">
@@ -15,7 +15,7 @@
     </div>
 </template>
 
-<style scoped>
+<style>
 .profile {
     display: grid;
     grid-auto-rows: 300px;
@@ -38,7 +38,7 @@ h1 {
   line-height: 40px;
 }
 
-img {
+.profile-img {
     width: 200px;
     border-radius: 50%;
 }

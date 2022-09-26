@@ -13,18 +13,6 @@
   line-height: 30px;
 }
 
-ul {
-  line-height: 50px;
-}
-
-a {
-  /* text-decoration: none; */
-  color: inherit;
-}
-
-h1 {
-  color: coral;
-}
 
 @media (min-width: 800px) {
   .blog-div {

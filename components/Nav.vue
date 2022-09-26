@@ -4,7 +4,7 @@
 
 <template>
     <div class="top-bar">
-        <div class="title">salvador magritte</div>
+        <div class="title">René van Dalí</div>
         <div class="nav">
             <div class="link">
                 <NuxtLink to="/" active-class="active">Home</NuxtLink>

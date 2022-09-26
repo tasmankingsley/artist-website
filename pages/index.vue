@@ -1,6 +1,6 @@
 <template>
     <div class="background" :style="{ backgroundImage: 'url(images/7.png)' }">
-        <div class="card">moiling minds</div>
+        <div class="card">algorithmic experiments</div>
     </div>
 </template>
 

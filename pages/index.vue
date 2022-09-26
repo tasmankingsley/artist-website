@@ -27,7 +27,6 @@
     font-size: 4rem;
     font-style: italic;
     font-family: 'Finger Paint', cursive;
-    transition: font-size 1s;
 }
 
 @media (max-width: 550px) {

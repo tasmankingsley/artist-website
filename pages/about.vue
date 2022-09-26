@@ -22,6 +22,22 @@
     place-items: center;
 }
 
+ul {
+  line-height: 50px;
+}
+
+a {
+  /* text-decoration: none; */
+  color: #191a21;
+  /* text-decoration-color: #639ef3; */
+}
+
+h1 {
+  color: coral;
+  font-size: 40px;
+  line-height: 40px;
+}
+
 img {
     width: 200px;
     border-radius: 50%;

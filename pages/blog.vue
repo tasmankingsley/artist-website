@@ -18,12 +18,12 @@ ul {
 }
 
 a {
-  color: coral;
   /* text-decoration: none; */
+  color: inherit;
 }
 
 h1 {
-  color: cadetblue;
+  color: coral;
 }
 
 @media (min-width: 800px) {

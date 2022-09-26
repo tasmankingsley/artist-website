@@ -24,12 +24,12 @@
     font-size: 4rem;
     font-style: italic;
     font-family: 'Finger Paint', cursive;
+    transition: font-size 1s;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .card {
-        margin-left: 25%;
-        margin-right: 25%;
+        font-size: 2.8rem;
     }
 }
 

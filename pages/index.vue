@@ -22,6 +22,7 @@
 .card {
     position: absolute;
     top: 350px;
+    margin: auto;
     color: white;
     font-size: 4rem;
     font-style: italic;
